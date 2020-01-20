@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="au.id.fedorgabrus.feverlog">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="au.id.fedorgabrus.feverlog.CustomTreatmentActivity"
+            android:parentActivityName="au.id.fedorgabrus.feverlog.MainActivity" />
+        <activity
+            android:name="au.id.fedorgabrus.feverlog.HistoryActivity"
+            android:parentActivityName="au.id.fedorgabrus.feverlog.MainActivity" />
+        <activity
+            android:name="au.id.fedorgabrus.feverlog.SettingsActivity"
+            android:parentActivityName="au.id.fedorgabrus.feverlog.MainActivity" />
+        <activity android:name="au.id.fedorgabrus.feverlog.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

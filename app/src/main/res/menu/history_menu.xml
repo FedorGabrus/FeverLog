@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addTreatmentHistoryMenuItem"
+        android:title="@string/add_treatment_menu_item" />
+    <item
+        android:id="@+id/clearHistoryMenuItem"
+        android:title="@string/clear_history_menu_item" />
+</menu>
