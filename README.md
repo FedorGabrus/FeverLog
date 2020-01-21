@@ -36,4 +36,4 @@ The main goal of the application is to keep track of time until the next fever t
 
 + **Edit Treatment**
 
-<img src="https://raw.githubusercontent.com/FedorGabrus/FeverLog/media/edit-treatment.png" height="300" alt="Main Screen"/>
+  <img src="https://raw.githubusercontent.com/FedorGabrus/FeverLog/media/edit-treatment.png" height="300" alt="Main Screen"/>
