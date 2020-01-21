@@ -1,4 +1,4 @@
-# FeverLog
+# Fever Log
 Android application that helps to keep track of fever medication. Includes countdown timer till the next treatment.
 
 ## Description
